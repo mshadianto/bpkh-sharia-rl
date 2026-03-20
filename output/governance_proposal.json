@@ -1,38 +1,38 @@
 {
-  "timestamp": "2026-03-20T15:02:59.206049",
+  "timestamp": "2026-03-20T16:09:50.845082",
   "badan_pelaksana": {
     "title": "AI-Augmented Portfolio Rebalancing Recommendation",
-    "summary": "Increase: TPIA.JK (+10.6%), EXCL.JK (+10.6%), ICBP.JK (+10.6%) | Decrease: ACES.JK (-5.0%), ADRO.JK (-5.0%), ANTM.JK (-5.0%) | Projected yield: 219.11% vs RKAT 6.88% | Sharia Compliance Score: 1.0000",
+    "summary": "Increase: TPIA.JK (+4.9%), TLKM.JK (+4.9%), KLBF.JK (+4.9%) | Decrease: ACES.JK (-5.0%), ANTM.JK (-5.0%), ICBP.JK (-5.0%) | Projected yield: 250.10% vs RKAT 6.88% | Sharia Compliance Score: 1.0000",
     "allocation_changes": {
       "ACES.JK": "-5.00%",
-      "ADRO.JK": "-5.00%",
+      "ADRO.JK": "+4.81%",
       "ANTM.JK": "-5.00%",
-      "ASII.JK": "+7.49%",
-      "BRPT.JK": "-3.17%",
-      "CPIN.JK": "-5.00%",
-      "EXCL.JK": "+10.59%",
-      "ICBP.JK": "+10.59%",
+      "ASII.JK": "+2.59%",
+      "BRPT.JK": "+4.90%",
+      "CPIN.JK": "+4.90%",
+      "EXCL.JK": "+4.90%",
+      "ICBP.JK": "-5.00%",
       "INCO.JK": "-5.00%",
       "INDF.JK": "-5.00%",
-      "JPFA.JK": "-5.00%",
-      "KLBF.JK": "+6.71%",
+      "JPFA.JK": "-3.69%",
+      "KLBF.JK": "+4.90%",
       "MDKA.JK": "-5.00%",
-      "MNCN.JK": "+1.52%",
-      "PGAS.JK": "-5.00%",
-      "PTBA.JK": "+8.91%",
+      "MNCN.JK": "+0.48%",
+      "PGAS.JK": "-1.22%",
+      "PTBA.JK": "+4.90%",
       "SMGR.JK": "-5.00%",
-      "TLKM.JK": "+1.78%",
-      "TPIA.JK": "+10.59%",
-      "UNVR.JK": "-5.00%"
+      "TLKM.JK": "+4.90%",
+      "TPIA.JK": "+4.90%",
+      "UNVR.JK": "-2.25%"
     },
-    "projected_yield": "219.11%",
-    "projected_sharpe": "4.493",
-    "vs_rkat": "+212.23% vs RKAT"
+    "projected_yield": "250.10%",
+    "projected_sharpe": "5.447",
+    "vs_rkat": "+243.22% vs RKAT"
   },
   "komite_investasi": {
     "title": "Investment Feasibility Analysis",
-    "risk_return": "Sharpe 4.493, MaxDD 15.77%",
-    "concentration": "Max single position: 15.6% | HHI: 0.1307 | PASS",
+    "risk_return": "Sharpe 5.447, MaxDD 11.57%",
+    "concentration": "Max single position: 9.9% | HHI: 0.0893 | PASS",
     "benchmark_comparison": "See backtest_results.csv"
   },
   "komite_risiko_syariah": {
@@ -59,7 +59,7 @@
   "dewan_pengawas": {
     "title": "Executive Summary for Supervisory Board",
     "recommendation": "Rebalance portfolio per AI recommendation",
-    "key_metrics": "Yield 219.11% | Sharpe 4.493 | SCS 1.00 | MaxDD 15.77%",
+    "key_metrics": "Yield 250.10% | Sharpe 5.447 | SCS 1.00 | MaxDD 11.57%",
     "governance_status": "All committees reviewed: PASS"
   }
 }

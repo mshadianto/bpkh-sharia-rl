@@ -10,16 +10,16 @@ Ph.D. Research — Sopian (MS Hadianto) · Supervisor: Dr. Indra Gunawan, Ph.D. 
 
 Reinforcement Learning approach to Sharia-compliant portfolio optimization, calibrated to BPKH's Rp179.5T hajj fund portfolio. Compares PPO, A2C, and DQN agents against traditional benchmarks with an Explainable RL (XRL) governance layer.
 
-## Key Results (Real JII Data — 50K Timesteps)
+## Key Results (Real JII Data — 200K Timesteps)
 
-| Strategy | Cum. Return | Ann. Return | Sharpe | Max DD | Sharia Score |
-|---|---|---|---|---|---|
-| **PPO** | **+2553.6%** | **+219.1%** | **4.493** | 15.77% | 1.0000 |
-| DQN | +483.2% | +86.7% | 2.642 | 13.13% | 1.0000 |
-| A2C | +32.7% | +10.5% | 0.251 | 37.32% | 1.0000 |
-| Equal Weight | +38.3% | +12.2% | 0.357 | 25.05% | — |
-| Momentum | -19.2% | -7.3% | -0.245 | 72.04% | — |
-| RKAT 6.88% | +21.5% | +7.1% | 0.000 | 0.00% | — |
+| Strategy | Cum. Return | Ann. Return | Sharpe | Max DD | Calmar | Sharia Score |
+|---|---|---|---|---|---|---|
+| **PPO** | **+3347.8%** | **+250.1%** | **5.447** | 11.57% | 21.619 | 1.0000 |
+| **DQN** | +1411.3% | +161.5% | 4.721 | **8.35%** | 19.334 | 1.0000 |
+| A2C | +54.6% | +16.7% | 0.534 | 23.20% | 0.719 | 1.0000 |
+| Equal Weight | +38.3% | +12.2% | 0.357 | 25.05% | 0.486 | — |
+| Momentum | -19.2% | -7.3% | -0.245 | 72.04% | -0.101 | — |
+| RKAT 6.88% | +21.5% | +7.1% | 0.000 | 0.00% | 0.000 | — |
 
 ## Live Demos
 

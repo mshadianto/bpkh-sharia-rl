@@ -1,42 +1,16 @@
 {
-  "PPO": {
-    "name": "PPO",
-    "cumulative_return": 25.535645090353473,
-    "annualized_return": 2.191094809540802,
-    "annualized_volatility": 0.25040191421960006,
-    "sharpe_ratio": 4.493049764008726,
-    "max_drawdown": 0.15774840064317872,
-    "calmar_ratio": 13.889806810130397,
-    "sortino_ratio": 16.285841288628998,
-    "n_days": 712,
-    "avg_scs": 1.0,
-    "min_scs": 0.9999999999999997
-  },
-  "A2C": {
-    "name": "A2C",
-    "cumulative_return": 0.32655588405051184,
-    "annualized_return": 0.10518904443918409,
-    "annualized_volatility": 0.23667879411274698,
-    "sharpe_ratio": 0.25054888197549574,
-    "max_drawdown": 0.37318837232359364,
-    "calmar_ratio": 0.28186581426490454,
-    "sortino_ratio": 0.21980441582446072,
-    "n_days": 712,
-    "avg_scs": 1.0,
-    "min_scs": 0.9999999999999997
-  },
   "DQN": {
     "name": "DQN",
-    "cumulative_return": 4.831906550259261,
-    "annualized_return": 0.8665744173931638,
-    "annualized_volatility": 0.21944788258385048,
-    "sharpe_ratio": 2.6422120413076198,
-    "max_drawdown": 0.13127704984576977,
-    "calmar_ratio": 6.601111301718425,
-    "sortino_ratio": 6.198633576373069,
+    "cumulative_return": 14.11317025681203,
+    "annualized_return": 1.61464280227902,
+    "annualized_volatility": 0.19332309396617783,
+    "sharpe_ratio": 4.721099300488728,
+    "max_drawdown": 0.08351408141980894,
+    "calmar_ratio": 19.33377910441865,
+    "sortino_ratio": 14.39620729155742,
     "n_days": 712,
     "avg_scs": 1.0,
-    "min_scs": 0.9999999999999998
+    "min_scs": 0.9999999999999997
   },
   "Equal Weight": {
     "name": "Equal Weight",
