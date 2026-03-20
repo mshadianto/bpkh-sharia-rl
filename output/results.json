@@ -1,0 +1,74 @@
+{
+  "PPO": {
+    "name": "PPO",
+    "cumulative_return": 25.535645090353473,
+    "annualized_return": 2.191094809540802,
+    "annualized_volatility": 0.25040191421960006,
+    "sharpe_ratio": 4.493049764008726,
+    "max_drawdown": 0.15774840064317872,
+    "calmar_ratio": 13.889806810130397,
+    "sortino_ratio": 16.285841288628998,
+    "n_days": 712,
+    "avg_scs": 1.0,
+    "min_scs": 0.9999999999999997
+  },
+  "A2C": {
+    "name": "A2C",
+    "cumulative_return": 0.32655588405051184,
+    "annualized_return": 0.10518904443918409,
+    "annualized_volatility": 0.23667879411274698,
+    "sharpe_ratio": 0.25054888197549574,
+    "max_drawdown": 0.37318837232359364,
+    "calmar_ratio": 0.28186581426490454,
+    "sortino_ratio": 0.21980441582446072,
+    "n_days": 712,
+    "avg_scs": 1.0,
+    "min_scs": 0.9999999999999997
+  },
+  "DQN": {
+    "name": "DQN",
+    "cumulative_return": 4.831906550259261,
+    "annualized_return": 0.8665744173931638,
+    "annualized_volatility": 0.21944788258385048,
+    "sharpe_ratio": 2.6422120413076198,
+    "max_drawdown": 0.13127704984576977,
+    "calmar_ratio": 6.601111301718425,
+    "sortino_ratio": 6.198633576373069,
+    "n_days": 712,
+    "avg_scs": 1.0,
+    "min_scs": 0.9999999999999998
+  },
+  "Equal Weight": {
+    "name": "Equal Weight",
+    "cumulative_return": 0.3830735571283539,
+    "annualized_return": 0.12163030093348648,
+    "annualized_volatility": 0.16875094314668185,
+    "sharpe_ratio": 0.35720893620661376,
+    "max_drawdown": 0.25045811497873494,
+    "calmar_ratio": 0.4856313038362261,
+    "sortino_ratio": 0.4298838954163156,
+    "n_days": 712
+  },
+  "Momentum": {
+    "name": "Momentum",
+    "cumulative_return": -0.19159407894935954,
+    "annualized_return": -0.07251463568064442,
+    "annualized_volatility": 0.3421563995880472,
+    "sharpe_ratio": -0.24481459614350115,
+    "max_drawdown": 0.7203695227327765,
+    "calmar_ratio": -0.10066310885218276,
+    "sortino_ratio": -0.45626097708062846,
+    "n_days": 712
+  },
+  "RKAT 6.88%": {
+    "name": "RKAT 6.88%",
+    "cumulative_return": 0.2145343727147433,
+    "annualized_return": 0.07121188456740013,
+    "annualized_volatility": 7.8091000304051e-16,
+    "sharpe_ratio": 1.6634601440863667e-07,
+    "max_drawdown": 0.0,
+    "calmar_ratio": 0.0,
+    "sortino_ratio": 241188.45674001297,
+    "n_days": 712
+  }
+}

@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Vite projects (built locally, deployed to CF Pages)
+sharia-rl-showcase/
+bpkh-dashboard/
+
+# Cached data (large parquet files)
+output/data/
+
+# OS
+.DS_Store
+Thumbs.db

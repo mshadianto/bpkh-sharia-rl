@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-03-20T15:02:59.206049",
+  "badan_pelaksana": {
+    "title": "AI-Augmented Portfolio Rebalancing Recommendation",
+    "summary": "Increase: TPIA.JK (+10.6%), EXCL.JK (+10.6%), ICBP.JK (+10.6%) | Decrease: ACES.JK (-5.0%), ADRO.JK (-5.0%), ANTM.JK (-5.0%) | Projected yield: 219.11% vs RKAT 6.88% | Sharia Compliance Score: 1.0000",
+    "allocation_changes": {
+      "ACES.JK": "-5.00%",
+      "ADRO.JK": "-5.00%",
+      "ANTM.JK": "-5.00%",
+      "ASII.JK": "+7.49%",
+      "BRPT.JK": "-3.17%",
+      "CPIN.JK": "-5.00%",
+      "EXCL.JK": "+10.59%",
+      "ICBP.JK": "+10.59%",
+      "INCO.JK": "-5.00%",
+      "INDF.JK": "-5.00%",
+      "JPFA.JK": "-5.00%",
+      "KLBF.JK": "+6.71%",
+      "MDKA.JK": "-5.00%",
+      "MNCN.JK": "+1.52%",
+      "PGAS.JK": "-5.00%",
+      "PTBA.JK": "+8.91%",
+      "SMGR.JK": "-5.00%",
+      "TLKM.JK": "+1.78%",
+      "TPIA.JK": "+10.59%",
+      "UNVR.JK": "-5.00%"
+    },
+    "projected_yield": "219.11%",
+    "projected_sharpe": "4.493",
+    "vs_rkat": "+212.23% vs RKAT"
+  },
+  "komite_investasi": {
+    "title": "Investment Feasibility Analysis",
+    "risk_return": "Sharpe 4.493, MaxDD 15.77%",
+    "concentration": "Max single position: 15.6% | HHI: 0.1307 | PASS",
+    "benchmark_comparison": "See backtest_results.csv"
+  },
+  "komite_risiko_syariah": {
+    "title": "Sharia Compliance & Risk Report",
+    "sharia_compliance_score": "1.0000",
+    "scs_threshold": "≥ 0.95 (PASS)",
+    "dsn_mui_screening": "All positions screened per DSN-MUI fatwa",
+    "liquidity_ratio": "2.53x BPIH (min: 2.0x)",
+    "allocation_cap": "Investment 100.0% (within 70/30 rule)"
+  },
+  "komite_audit": {
+    "title": "Audit Trail — AI Decision Log",
+    "model": "PPO (Stable-Baselines3)",
+    "decision_basis": "120-month historical backtest + 35 technical features",
+    "compliance_checklist": {
+      "sharia_screen": "PASS",
+      "liquidity_ratio": "PASS",
+      "allocation_cap": "PASS",
+      "concentration_limit": "PASS",
+      "transaction_cost": "15bps applied"
+    },
+    "realization_tracking": "To be compared with actual returns post-execution"
+  },
+  "dewan_pengawas": {
+    "title": "Executive Summary for Supervisory Board",
+    "recommendation": "Rebalance portfolio per AI recommendation",
+    "key_metrics": "Yield 219.11% | Sharpe 4.493 | SCS 1.00 | MaxDD 15.77%",
+    "governance_status": "All committees reviewed: PASS"
+  }
+}
